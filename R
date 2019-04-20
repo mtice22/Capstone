@@ -1,0 +1,2 @@
+data=read.csv("2007.csv")
+modelA<-lm(TNRR~EA+HTE+I+ME+RDE+RRD+TRD, data=data)
