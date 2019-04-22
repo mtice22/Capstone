@@ -1,3 +1,8 @@
 data=read.csv("2007.csv")
 modelB<-lm(NGR~CEE+MHTE+GEE+I+LFAE+RDE+RRD, data=data)
+summary(modelB)
+
+data=read.csv("2013.csv")
+modelB<-lm(NGR~CEE+MHTE+GEE+I+LFAE+RDE+RRD, data=data)
+summary(modelB)
 
